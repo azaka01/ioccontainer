@@ -1,5 +1,7 @@
 # Simple IOC Container
 
+[![](https://jitpack.io/v/azaka01/ioccontainer.svg)](https://jitpack.io/#azaka01/ioccontainer)
+
 A sample library to demonstrate inversion of control and its usage in a demo app.
 
 ## About
