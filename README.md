@@ -110,3 +110,5 @@ internal inline fun <reified T : Any> getViewModel(): T? =
     }
 ```
 3. The activity calls view model methods to control the player.
+
+![demo](https://user-images.githubusercontent.com/1098487/131267019-dc24ad0e-1aa5-4e3c-a1c8-aa5173ab042b.gif)
