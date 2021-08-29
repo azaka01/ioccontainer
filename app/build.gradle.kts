@@ -37,8 +37,8 @@ android {
 
 dependencies {
 
-   // implementation(project(":simpleioclib"))
-    implementation("com.intsoftdev:simpleioclib:0.21")
+    implementation(project(":simpleioclib"))
+   // implementation("com.intsoftdev:simpleioclib:0.21")
     implementation(Deps.timberLib)
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.appcompat:appcompat:1.3.1")
