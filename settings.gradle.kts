@@ -4,6 +4,7 @@ dependencyResolutionManagement {
         google()
         mavenLocal()
         mavenCentral()
+        maven(url = "https://jitpack.io")
     }
 }
 rootProject.name = "IOCConsumerApp"

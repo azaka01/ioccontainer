@@ -6,7 +6,7 @@ A sample library to demonstrate inversion of control and its usage in a demo app
 
 The library is written in Kotlin (1.5.x) and requires minimum Android API 21+.
 
-Developed using Android Studio Arctic Fox (2020.3.1 Beta 1) with Gradle Wrapper `7.0.2` and AGP `7.0.0-beta04`
+Developed using Android Studio Arctic Fox (2020.3.1 Patch 1) with Gradle Wrapper `7.0.2` and AGP `7.0.1`
 
 ## Usage
 
