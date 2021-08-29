@@ -8,7 +8,7 @@ object Versions {
     const val junitVersion = "4.13"
     const val mockitoKotlinVersion = "2.2.0"
     const val mockitoVersion = "3.2.4"
-    const val libVersion = "0.21"
+    const val libVersion = "0.30"
 }
 
 object Deps {
