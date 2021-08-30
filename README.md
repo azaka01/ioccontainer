@@ -19,13 +19,27 @@ Developed using Android Studio Arctic Fox (2020.3.1 Patch 1) with Gradle Wrapper
         maven(url = "https://jitpack.io")
     }
 ```
+Groovy:
+
+```Kotlin
+ repositories {
+       ...
+        maven { url 'https://jitpack.io' }
+    }
+```
+
 2. In the project `build.gradle.kts` add the following dependency
 ```Kotlin
 dependencies {
     implementation("com.github.azaka01:ioccontainer:0.1")
 }
 ```
-
+Groovy:
+```Kotlin
+dependencies {
+    implementation 'com.github.azaka01:ioccontainer:0.1'
+}
+```
 ## Usage
 
 The API is fairly simple as only two methods suffice to add and create classes.
