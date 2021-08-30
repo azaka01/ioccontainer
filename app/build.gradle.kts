@@ -1,3 +1,5 @@
+import Versions.libVersion
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -36,9 +38,10 @@ android {
 }
 
 dependencies {
-
+    // Uncomment the module library dependency to use it instead of the remote dependency
    // implementation(project(":simpleioclib"))
-    implementation("com.intsoftdev:simpleioclib:0.21")
+    // remote dependency hosted on jitpack
+     implementation("com.github.azaka01:ioccontainer:$libVersion")
     implementation(Deps.timberLib)
     implementation("androidx.core:core-ktx:1.6.0")
     implementation("androidx.appcompat:appcompat:1.3.1")
