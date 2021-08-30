@@ -22,7 +22,8 @@ Developed using Android Studio Arctic Fox (2020.3.1 Patch 1) with Gradle Wrapper
 2. In the project `build.gradle.kts` add the following dependency
 ```Kotlin
 dependencies {
-    implementation("com.github.azaka01:ioccontainer:<version>")
+    implementation("com.github.azaka01:ioccontainer:0.1")
+}
 ```
 
 ## Usage
